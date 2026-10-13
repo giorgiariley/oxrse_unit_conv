@@ -28,7 +28,7 @@ unit_out = 'mile'
 print(f"{n}{unit_in} in {unit_out} = {oxrse_unit_conv.convert(n, unit_in, unit_out)}")
 ```
 
-The same result can be obtained by interacting with unit objects directly.
+The same result can be obtained by interacting with the unit objects directly.
 Units are converted to one another by asking one unit to convert to the other.
 The `Unit.to_unit` function takes a number and a target `Unit`.
 
